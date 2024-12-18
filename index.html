@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лента новостей</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow-y: scroll;
+        }
+        .post {
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        #loading {
+            text-align: center;
+            margin: 20px;
+            font-size: 14px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+<div id="newsFeed"></div>
+<div id="loading">Загрузка...</div>
+
+<script src="script.js"></script>
+</body>
+</html>
